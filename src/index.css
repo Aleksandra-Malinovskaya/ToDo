@@ -1,5 +1,6 @@
+@media (min-width: 600px){
 body{
-  background-color: hsla(0, 0%, 0%, 0.115);
+  background-color: hsla(0, 0%, 0%, 0.315);
 }
 .to-do-list{
   font-family: Arial, sans-serif;
@@ -21,10 +22,10 @@ button{
   transition: background-color 0.5s ease;
 }
 .add-button{
-  background-color: rgb(16, 214, 26);
+  background-color: rgba(45, 238, 241, 0.814);
 }
 .add-button:hover{
-  background-color: rgb(16, 214, 26);
+  background-color: rgba(45, 238, 241, 0.814);
 }
 .delete-button{
   background-color: rgb(190, 21, 224, 0.5);
@@ -49,8 +50,8 @@ ol{
   padding: 0;
 }
 li{
-  width: 40%;
-  font-size: 2rem;
+  width: 60%;
+  font-size: 1.5rem;
   font-weight: bold;
   padding: 15px;
   background-color: hsla(0, 2%, 18%, 0.282);
@@ -68,4 +69,11 @@ li{
   padding: 8px 12px;
   font-size: 1.4rem;
   margin-left: 10px;
+}
+.updatedTask[index]{
+  text-decoration: line-through;
+}
+}
+.task-done {
+  text-decoration: line-through;
 }
